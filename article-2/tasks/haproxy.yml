@@ -5,7 +5,7 @@
     - name : Create /etc/haproxy/ directory
       file: path=/etc/haproxy state=directory
 
-    - name : Nnstall Haproxy
+    - name : Install Haproxy
       apt : name=haproxy
 
     - name : Copy haproxy.cfg
